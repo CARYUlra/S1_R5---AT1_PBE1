@@ -1,0 +1,32 @@
+{
+  "name": "s1_r5---at1_pbe1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:mensagem": "tsx watch mensagem/app.ts",
+    "dev:soma": "tsx watch soma/app.ts",
+    "dev:login": "tsx watch login/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CARYUlra/meu-novo-projeto-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CARYUlra/meu-novo-projeto-backend/issues"
+  },
+  "homepage": "https://github.com/CARYUlra/meu-novo-projeto-backend#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.3",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
